@@ -1,3 +1,21 @@
+"""
+AUSTRALIAN SYNTHETIC CHARITY DATA GENERATOR
+===========================================
+Purpose:
+    Generates a realistic dataset of charitable donations in Australia.
+    
+Key Seasonal Logic:
+    - Summer Holiday Slump: Reduces regular donor acquisition in Dec/Jan.
+    - EOFY Surge: Increases activity in May/June for the End of Financial Year Tax Appeal.
+    - EOY Surge: Increases activity in November/December for the Christmas Appeal.
+
+Output:
+    Dataframes containing synthetic donor records and transaction history.
+
+Author: ktevon
+Date: January 2026
+"""
+
 # Import required modules
 import pandas as pd
 import numpy as np
@@ -381,5 +399,6 @@ for i in range(len(pareto_analysis)):
 plt.title("Pareto Analysis: 20% of Donors Deliver 80% of Gifts", fontweight='bold', pad=20)
 ax1.invert_xaxis() # This will affect both ax1 and ax2 because they share the x-axis
 fig.tight_layout()
+
 
 plt.show()
