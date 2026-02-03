@@ -14,6 +14,12 @@ This repository is in its early stages and will expand over time as new modules,
 
 📂 **Current Contents**
 
+**salesforce_rfm_segmentation_pipeline.r**
+
+A fully anonymised R script demonstrating how to automate an RFM segmentation workflow using Salesforce data. The script retrieves supporter and transaction data via the Salesforce Bulk 1.0 API, calculates RFM scores, applies k‑means clustering to generate donor segments, and writes the resulting segment labels back to Salesforce. All sensitive information (credentials, endpoints, and IDs) has been removed and/or replaced with placeholders.
+
+Useful as a reference implementation for nonprofits looking to operationalise donor segmentation using open‑source tools.
+
 **synthetic_charity_data.py**
 
 This script generates the first iteration of a synthetic charity dataset, designed to resemble realistic patterns in nonprofit operations.
