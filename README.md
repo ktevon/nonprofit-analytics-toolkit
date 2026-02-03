@@ -14,6 +14,11 @@ This repository is in its early stages and will expand over time as new modules,
 
 📂 **Current Contents**
 
+**animal_charity_donation_hierarchical_clustering.py**
+A Python script demonstrating hierarchical clustering on mixed‑type donor data using the publicly available animal_charity_donation_records.csv dataset from Kaggle. The workflow calculates Gower distance to accommodate categorical and numeric variables, performs hierarchical clustering, evaluates candidate cluster solutions using silhouette analysis, and visualises the resulting segments with a radar chart.
+
+This script serves as a practical example of donor segmentation using mixed‑type data — a common scenario in nonprofit analytics.
+
 **salesforce_rfm_segmentation_pipeline.r**
 
 A fully anonymised R script demonstrating how to automate an RFM segmentation workflow using Salesforce data. The script retrieves supporter and transaction data via the Salesforce Bulk 1.0 API, calculates RFM scores, applies k‑means clustering to generate donor segments, and writes the resulting segment labels back to Salesforce. All sensitive information (credentials, endpoints, and IDs) has been removed and/or replaced with placeholders.
