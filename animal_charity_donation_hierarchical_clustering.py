@@ -49,8 +49,7 @@ plt.rcParams["font.family"] = "sans-serif"
 plt.rcParams["font.sans-serif"] = "Arial"
 
 # Import data
-# data_full = pd.read_csv("animal_charity_donation_records.csv")
-data_full = pd.read_csv("C:/Users/ktevo/OneDrive/Kaggle/Animal Charity/animal_charity_donation_records.csv")
+data_full = pd.read_csv("animal_charity_donation_records.csv")
 
 # Inspect data frame
 print(data_full.head())
@@ -214,4 +213,5 @@ ax.set_xticks(angles[:-1])
 ax.set_xticklabels(cluster_data.columns)
 ax.set_title("Cluster Profiles Radar Chart", size=15)
 ax.legend(loc='upper right', bbox_to_anchor=(1.3, 1.1))
+
 plt.show()
