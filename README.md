@@ -25,9 +25,9 @@ A fully anonymised R script demonstrating how to automate an RFM segmentation wo
 
 Useful as a reference implementation for nonprofits looking to operationalise donor segmentation using open‑source tools.
 
-**synthetic_charity_data.py**
+**synthetic_charity_dataset_fix_attempt3.py**
 
-This script generates the first iteration of a synthetic charity dataset, designed to resemble realistic patterns in nonprofit operations.
+This script generates a synthetic charity dataset, designed to resemble realistic patterns in nonprofit operations.
 
 It includes logic for modelling features such as:
 
@@ -43,6 +43,11 @@ The dataset is designed to be:
 - **Fully synthetic**, containing no sensitive or identifiable information
 - **Customisable**, allowing future iterations to incorporate additional features or sector nuances
 
+It was built through multiple interations--**synthetic_charity_dataset.py**, **synthetic_charity_dataset_fix_attempt1.py**, and **synthetic_charity_dataset_fix_attempt2.py**. This process is fully documented in the following Medium articles.
+
+- https://medium.com/data-and-beyond/how-i-built-a-synthetic-charity-dataset-that-behaves-like-the-real-thing-f19af0cf548d
+- https://medium.com/data-and-beyond/the-day-my-synthetic-donors-didnt-pass-for-human-e67fb52f928f
+
 🎯 **Purpose and Use Cases**
 
 This toolkit supports a range of analyitcs activities commonly encountered in the NFP sector, including:
@@ -57,7 +62,7 @@ This toolkit supports a range of analyitcs activities commonly encountered in th
 
 To generate the synthetic dataset:
 
-  synthetic_charity_data.py
+  synthetic_charity_dataset_fix_attempt3.py
 
 This will produce a CSV (or other output, depending on your script) containing the synthetic charity records.
 
@@ -65,7 +70,7 @@ This will produce a CSV (or other output, depending on your script) containing t
 
 Planned enhancements include:
 
-- Additional synthetic datasets (donations, volunteers, programs)
+- Additional synthetic datasets (e.g., volunteers, programs)
 - Data validation and profiling tools
 - Example notebooks for analysis and visualisation
 - Documentation on methodology and assumptions
@@ -78,6 +83,5 @@ Contributions, suggestions, and issue reports are welcome.
 As the project matures, contribution guidelines will be added.
 
 📄 **License**
-MIT
 
-If you want, I can help you refine this into a polished final README, or tailor it to a more technical, academic, or playful tone.
+MIT
