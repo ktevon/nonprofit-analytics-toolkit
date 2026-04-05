@@ -19,6 +19,11 @@ A Python script demonstrating hierarchical clustering on mixed‑type donor data
 
 This script serves as a practical example of donor segmentation using mixed‑type data — a common scenario in nonprofit analytics.
 
+**giw_propensity_assign_bq_status.py**
+**giw_propensity_modelling.py**
+
+Python scripts that use the synthetic charity dataset (see **synthetic_charity_dataset_fix_attempt3.py** below) to build a classification model identifying donors who are more likely to leave a gift in their will. This analysis is documented in forthcoming Medium articles.
+
 **salesforce_rfm_segmentation_pipeline.r**
 
 A fully anonymised R script demonstrating how to automate an RFM segmentation workflow using Salesforce data. The script retrieves supporter and transaction data via the Salesforce Bulk 1.0 API, calculates RFM scores, applies k‑means clustering to generate donor segments, and writes the resulting segment labels back to Salesforce. All sensitive information (credentials, endpoints, and IDs) has been removed and/or replaced with placeholders.
