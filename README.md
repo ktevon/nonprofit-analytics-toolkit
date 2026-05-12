@@ -19,10 +19,29 @@ A Python script demonstrating hierarchical clustering on mixed‑type donor data
 
 This script serves as a practical example of donor segmentation using mixed‑type data — a common scenario in nonprofit analytics.
 
+**cohort_retention_analysis.py**
+
+A Python script that uses the synthetic charity dataset (see **synthetic_charity_dataset_fix_attempt3.py** below) to calculate retention and second-gift rates by cohort. This analysis is documented in the following Medium article.
+
+- https://medium.com/data-and-beyond/your-retention-rate-is-lying-to-you-214ea371561f
+
+**comprehensive_ltv.py**
+
+A Python script that uses the synthetic charity dataset (see **synthetic_charity_dataset_fix_attempt3.py** below) to calculate "comprehensive LTV", which takes into account expected bequest value alongside cash giving history. This analysis is documented in the following Medium article.
+
+- https://medium.com/data-and-beyond/the-donors-your-dashboard-is-hiding-8ece0acdc9ea
+
 **giw_propensity_assign_bq_status.py**
 **giw_propensity_modelling.py**
 
-Python scripts that use the synthetic charity dataset (see **synthetic_charity_dataset_fix_attempt3.py** below) to build a classification model identifying donors who are more likely to leave a gift in their will. This analysis is documented in forthcoming Medium articles.
+Python scripts that use the synthetic charity dataset (see **synthetic_charity_dataset_fix_attempt3.py** below) to build a classification model identifying donors who are more likely to leave a gift in their will. This analysis is documented in the following Medium articles.
+
+- https://medium.com/data-and-beyond/will-my-synthetic-charity-donors-leave-a-gift-part-i-2e593d130869
+- https://medium.com/data-and-beyond/will-my-synthetic-charity-donors-leave-a-gift-part-ii-98b112f2ddb9
+
+**logarithmic_decay.R**
+
+An R script that fits a logarithmic decay curve to data points—useful when extrapolating short- or medium-term retention rates to long-term retention rates. 
 
 **salesforce_rfm_segmentation_pipeline.r**
 
